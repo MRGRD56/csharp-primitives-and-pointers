@@ -15,4 +15,8 @@ unsafe
     var n4Ptr = &number4;
 
     *n3Ptr = 4;
+
+    int? number5 = 124;
+    int? number6 = number5;
+    number5 = 34;
 }
